@@ -54,6 +54,8 @@ GET
 ```javascript
 Script executado
 
+
+
 pm.test("Status code is 200", function () {
     pm.response.to.have.status(200);
 });
@@ -66,6 +68,11 @@ pm.test("Response contains user data", function () {
 
 
 Fez requisição no seguinte link: https://reqres.in/api/users?page=2\
+
+![image](https://github.com/user-attachments/assets/fa65be83-df27-4eed-b971-8bc5acc2f164)
+
+
+
 
 
 
