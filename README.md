@@ -68,7 +68,8 @@ pm.test("Response contains user data", function () {
     pm.expect(pm.response.json().data).to.be.an('array');
 });
 ```
-![image](https://github.com/user-attachments/assets/2c8a84c3-6a03-47f3-bb4a-a8a6891be13a)
+<img src="https://github.com/user-attachments/assets/2c8a84c3-6a03-47f3-bb4a-a8a6891be13a" width="300"/>
+
 
 
 #### ✅ POST
@@ -93,7 +94,8 @@ pm.test("Response has ID", function () {
     pm.expect(pm.response.json()).to.have.property("id");
 });
 ```
-![image](https://github.com/user-attachments/assets/50963279-544b-4ed1-8166-3ba3b18c2de4)
+<img src="https://github.com/user-attachments/assets/50963279-544b-4ed1-8166-3ba3b18c2de4" width="300"/>
+
 
 
 
@@ -118,7 +120,8 @@ pm.test("Response contains updated job title", function () {
     pm.expect(pm.response.json().job).to.eql("QA Senior");
 });
 ```
-![image](https://github.com/user-attachments/assets/f196ed1e-98b3-4541-bf9e-f9817b665258)
+<img src="https://github.com/user-attachments/assets/f196ed1e-98b3-4541-bf9e-f9817b665258" width="300">
+
 
 
 
@@ -129,7 +132,7 @@ pm.test("Status code is 204", function () {
     pm.response.to.have.status(204);
 });
 ```
-![image](https://github.com/user-attachments/assets/3bace166-8b52-4b8f-8f38-0bd571768bc8)
+<img src="https://github.com/user-attachments/assets/3bace166-8b52-4b8f-8f38-0bd571768bc8" width="300">
 
 
 ---
@@ -143,5 +146,3 @@ Este projeto é de código aberto e está disponível sob a licença MIT.
 - Utilize variáveis de ambiente no Postman para tornar os testes mais dinâmicos.
 - Automatize a execução dos testes via CI/CD para garantir a qualidade contínua da API.
 
-README.txt
-4 KB
