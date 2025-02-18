@@ -32,11 +32,18 @@ newman run collections/minha-colecao.json -e environments/meu-ambiente.json -r h
 
 
 📂 Estrutura do Projeto
+
+
 📁 projeto-teste-api
+
  ┣ 📂 collections       # Coleções de testes do Postman
+ 
  ┣ 📂 environments      # Variáveis de ambiente do Postman
+ 
  ┣ 📂 reports           # Relatórios gerados pelo Newman
+ 
  ┣ 📜 README.md         # Documentação do projeto
+ 
 
 📄 Licença
 Este projeto é de código aberto e está disponível sob a licença MIT.
