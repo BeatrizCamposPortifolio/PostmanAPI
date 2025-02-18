@@ -71,7 +71,7 @@ pm.test("Response contains user data", function () {
 
 #### ✅ POST
 https://reqres.in/api/users
-Realizamos uma inserção no corpo dessa requisição, e fizemos um teste em javascript.
+Endpoint POST Realizamos uma inserção no corpo dessa requisição e fizemos um teste em JavaScript.
 
 ```json
 {
@@ -94,7 +94,7 @@ pm.test("Response has ID", function () {
 
 #### ✅ PUT
 https://reqres.in/api/users
-Realizamos uma inserção no corpo dessa requisição, e fizemos um teste em javascript.
+Endpoint PUT Realizamos uma atualização no corpo dessa requisição e fizemos um teste em JavaScript.
 ```json
 {
     "name": "João QA",
