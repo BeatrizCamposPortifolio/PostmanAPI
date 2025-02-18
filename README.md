@@ -47,7 +47,6 @@ projeto-teste-api/
 
 ## 📖 Testes no Postman
 
-Foram realizadas **4 requisições**, todas concluídas com sucesso. Utilizamos **JavaScript** no Collection Runner para automatizar o processo de teste da API.
 
 ### 🖥️ Endpoints Testados
 - **GET**: Obtenção de informações
@@ -55,7 +54,6 @@ Foram realizadas **4 requisições**, todas concluídas com sucesso. Utilizamos 
 - **PUT**: Atualização de registros existentes
 - **DELETE**: Remoção de registros
 
-### 📝 Exemplos de Testes
 
 #### ✅ GET
 https://reqres.in/api/users/2
@@ -101,6 +99,7 @@ pm.test("Response has ID", function () {
 
 #### ✅ PUT
 https://reqres.in/api/users
+
 Endpoint PUT Realizamos uma atualização no corpo dessa requisição e fizemos um teste em JavaScript.
 
 ```json
