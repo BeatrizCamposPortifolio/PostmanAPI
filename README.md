@@ -31,21 +31,43 @@ newman run collections/minha-colecao.json -e environments/meu-ambiente.json -r h
 ```
 
 
-📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 
-📁 projeto-teste-api
+### 📁 projeto-teste-api
 
  ┣ 📂 collections       # Coleções de testes do Postman
- 
- ┣ 📂 environments      # Variáveis de ambiente do Postman
  
  ┣ 📂 reports           # Relatórios gerados pelo Newman
  
  ┣ 📜 README.md         # Documentação do projeto
  
 
-📄 Licença
+
+## 📄 Licença
 Este projeto é de código aberto e está disponível sob a licença MIT.
+
+<hr>
+
+GET
+
+```javascript
+Script executado
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+pm.test("Response contains user data", function () {
+    pm.expect(pm.response.json().data).to.be.an('array');
+});
+```
+
+
+
+Fez requisição no seguinte link: https://reqres.in/api/users?page=2\
+
+
+
 
 
