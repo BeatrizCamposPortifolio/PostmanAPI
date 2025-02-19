@@ -72,6 +72,7 @@ pm.test("Response contains user data", function () {
 
 #### ✅ POST
 https://reqres.in/api/users
+
 Endpoint POST Realizamos uma inserção no corpo dessa requisição e fizemos um teste em JavaScript.
 
 ```json
