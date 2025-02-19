@@ -24,12 +24,12 @@ npm install -g newman
 
 ### 3️⃣ Executar os testes:
 ```sh
-newman run collections/minha-colecao.json -e environments/meu-ambiente.json
+newman run collections/TestesAPI.postman_collection.json 
 ```
 
 ### 4️⃣ Gerar um relatório HTML dos testes (opcional):
 ```sh
-newman run collections/minha-colecao.json -e environments/meu-ambiente.json -r html --reporter-html-export reports/relatorio.html
+newman run collections/TestesAPI.postman_collection.json -e environments/meu-ambiente.json -r html --reporter-html-export reports/relatorio.html
 ```
 
 ---
